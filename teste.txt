@@ -1,4 +1,19 @@
 Testando aqui
+
+Sempre q eu fechar o git bash tenho q executar:
+eval "$(ssh-agent -s)"
+shh-add /c/Users/Pacatuba/.ssh/github
+
+iniciar o git
+git init 
+git config --global user.name "Bruno Alehtxandre"
+git config --global user.email "brunoaleh1@gmail.com"
+git remote add origin shh do repositorio em questão
+git add .
+git commit -m "Initial"
+git push origin//git push
+
+
 adicionando alguma alteração, se deve fazer git add .
 git commit -m "Adicionando novos comandos"
-git push master -u
+git push origin master -u
