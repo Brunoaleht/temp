@@ -1,0 +1,4 @@
+Testando aqui
+adicionando alguma alteração, se deve fazer git add .
+git commit -m "Adicionando novos comandos"
+git push master -u
